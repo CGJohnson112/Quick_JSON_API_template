@@ -3,7 +3,7 @@
 //fetch('https://fakestoreapi.com/products').then((data) =>{
 
 //this gets the JSON from the data file included 
-fetch('http://localhost/REST_API/data.json').then((data) =>{
+fetch('http://localhost/Quick_JSON_API_template/data.json').then((data) =>{
     //console.log(data);
     return data.json();///converted to object
 }).then((objectData) => {
